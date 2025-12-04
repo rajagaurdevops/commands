@@ -8,6 +8,35 @@ git push origin main  --->  Push to GitHub
 git pull origin main  --->  Pull from GitHub
 git clone <repo url>  ---> Clone a remote Github repository on local
 git branch  --->  List branches
+git checkout <branch name>   ---> checkout to another branch
+git checkout -b <branch name>  --->  create new branch
+git checkout -d <branch name>  --->  delete branch
+git merge <branch name>   --->  Merge a branch
+git rebase main   --->  rebase
+git restore <filename>   --->  Undo changes in file
+git restore --staged filename   --->  unstage file
+git reset --soft HEAD~1  --->  Undo last commit (keep work)
+git reset --hard HEAD~1  --->  Undo last commit (remove work)
+git revert <commit-id>   --->  Revert a commit safely
+git stash   --->   Save your work temporarily
+git stash list  --->  List stashes
+git stash pop   --->   Bring back stash
+git log   --->   Show commit history
+git log   ---oneline   --->   Show one-line history
+git diff   --->   Show file changes
+git reflog  --->   See where HEAD points
+git config user.name "username"
+git config user.email "email"
+git config list
+git remote add origin https://github.com/user/repo.git  --->  Add remote origin
+git remote -v  --->   View all remotes
 
+
+
+
+
+
+
+  
 
 
