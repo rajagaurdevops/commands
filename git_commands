@@ -31,12 +31,6 @@ git config list
 git remote add origin https://github.com/user/repo.git  --->  Add remote origin
 git remote -v  --->   View all remotes
 
-
-
-
-
-
-
   
 
 
