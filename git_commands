@@ -1,1 +1,13 @@
 
+git init   --->  Initialize a Git repository
+git status  --->  check the status
+git add <filename>  --->  Add files to staging area
+git add .  --->  Add everything
+git commit -m "your message"  --->  Commit the changes
+git push origin main  --->  Push to GitHub
+git pull origin main  --->  Pull from GitHub
+git clone <repo url>  ---> Clone a remote Github repository on local
+git branch  --->  List branches
+
+
+
