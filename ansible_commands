@@ -21,3 +21,10 @@ ansible -i hosts all -m ping
 
 # To run playbook-
 ansible-playbook -i hosts file.yml
+
+# to check ansible version
+ ansible --version
+
+# list all host in inventory
+ansible-inventory -i hosts --list
+
