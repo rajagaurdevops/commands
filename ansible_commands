@@ -28,3 +28,27 @@ ansible-playbook -i hosts file.yml
 # list all host in inventory
 ansible-inventory -i hosts --list
 
+# Show graph view of inventory
+ansible-inventory -i hosts --graph
+
+# test connectivity
+ansible all -m ping
+
+# Runs a command on the web servers
+ansible web -m command -a "ls"
+
+# Runs shell commands on remote hosts
+ansible web -m shell -a "df -h"
+
+# Asks for SSH password instead of using SSH key.
+ansible-playbook site.yml --ask-pass
+
+# Asks for sudo/root password
+ansible-playbook site.yml --ask-become-pass
+
+# dry run 
+--check
+
+# with sudo
+-b
+
